@@ -1,0 +1,38 @@
+Objective 1
+Profile & explore the data
+Your first objective is to import the data and explore relationships between the features and target variable.
+Tasks:
+1. Import the “Bank_Churn.csv” file and set an appropriate data type for each column.
+2. Check for missing values and calculate the min, max, and mean for numeric columns.
+3. Build a scatterplot matrix to find relationships between all pairs of numeric columns.
+4. Build box plots for each numeric column broken out by the target variable, “Exited”.
+5. Build bar charts that show the percentage of “Exited” by category for each categorical column.
+
+Objective 2
+Prepare the data for modeling
+Your second objective is to prepare the data for modeling through feature selection, feature engineering, and data splitting.
+Tasks:
+1. Drop columns that aren’t suitable for modeling from the dataset.
+2. Create a new column, “balance_to_income”, by dividing “Balance” by “EstimatedSalary”.
+3. Create a new column, “income_v_products”, by dividing “EstimatedSalary” by “NumOfProducts”.
+4. Create dummy variables for categorical columns.
+5. Split the data into train and test sets, with 20% of the rows in the test set.
+
+Objective 3
+Build & evaluate a logistic regression model
+Your third objective is to fit a logistic regression model and evaluate it by using a confusion matrix, ROC curve, and precision & recall.
+Tasks:
+1. Fit a logistic regression model on your training data.
+2. Build a confusion matrix to evaluate your model.
+3. Calculate accuracy, precision, recall, and F1 for your test data.
+4. Plot an ROC curve and calculate the AUC statistic.
+5. Plot precision and recall against the model threshold (set the threshold to the value where recall is the highest, but precision is still above 50%).
+
+Objective 4
+Fit & tune a random forest model
+Your final objective is to fit a random forest model, tune it using cross validation, and evaluate test accuracy, AUC score, and feature importance.
+Tasks:
+1. Fit a random forest model with default hyperparameters.
+2. Use cross validation to tune your model's hyperparameters.
+3. Report the final test accuracy and AUC score.
+4. Build a bar chart that shows feature importance.

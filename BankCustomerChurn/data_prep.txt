@@ -1,0 +1,33 @@
+Objective 1
+Import & QA the data
+Your first objective is to import & join two customer data tables, then remove duplicate rows & columns and fill in missing values.
+Task
+1. Import the data from both tabs in the "Bank_Churn_Messy" Excel file.
+2. Use a left join to join "Account_Info" to "Customer_Info" using the CustomerID column.
+3. Check for and remove duplicate rows and columns.
+
+Objective 2
+Clean the data
+Your second objective is to clean the data by fixing inconsistencies in labeling, handling erroneous values, and fixing currency fields.
+Task
+1. Check the data types for each column and make any necessary fixes.
+2. Replace missing values in categorical columns with "MISSING", and missing values in numeric columns with the median.
+3. Profile the numeric columns in the data. Are there any extreme or non-sensical values? If so, impute them with the median of the column.
+4. Combine any variations in country names in the "Geography" column to a single value per country.
+
+Objective 3
+Explore the data
+Your third objective is to explore the target variable and look at feature-target relationships for categorical and numeric fields.
+Task
+1. Build a bar chart displaying the count of churners (Exited=1) vs. non-churners (Exited=0).
+2. Explore the categorical variables vs. the target, and look at the percentage of Churners by “Geography” and “Gender”.
+3. Build box plots for each numeric field, broken out by churners vs. non-churners.
+4. Build histograms for each numeric field, broken out by churners vs. non-churners.
+
+Objective 4
+Prepare the data for modeling
+Your final objective is to prepare the data for modeling through feature selection, feature engineering, and data splitting.
+Task
+1. Create a new dataset that excludes any columns that aren’t be suitable for modeling.
+2. Create dummy variables for categorical fields.
+3. Create a new “balance_v_income” feature, which divides a customer’s bank balance by their estimated salary, then visualize that feature vs. churn status.

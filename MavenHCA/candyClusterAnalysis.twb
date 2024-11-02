@@ -1,0 +1,1570 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0910.0334                               -->
+<workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <SavingAnalyticObjects />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='CandyClusterAnalysis' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='candy-data-pca' inline='true' name='federated.0xrqofv19bke181d4tk4o0kpzggn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='candy-data-pca' name='textscan.1vpypgw1bo2x8b1bmrivk18bqkri'>
+            <connection class='textscan' directory='C:/Users/dell/Documents/My Tableau Repository/Datasources/Halloween Candy Rankings' filename='candy-data-pca.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1vpypgw1bo2x8b1bmrivk18bqkri' name='candy-data-pca.csv' table='[candy-data-pca#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='competitorname' ordinal='1' />
+            <column datatype='integer' name='chocolate' ordinal='2' />
+            <column datatype='integer' name='fruity' ordinal='3' />
+            <column datatype='integer' name='caramel' ordinal='4' />
+            <column datatype='integer' name='peanutyalmondy' ordinal='5' />
+            <column datatype='integer' name='nougat' ordinal='6' />
+            <column datatype='integer' name='crispedricewafer' ordinal='7' />
+            <column datatype='integer' name='hard' ordinal='8' />
+            <column datatype='integer' name='bar' ordinal='9' />
+            <column datatype='integer' name='pluribus' ordinal='10' />
+            <column datatype='real' name='sugarpercent' ordinal='11' />
+            <column datatype='real' name='pricepercent' ordinal='12' />
+            <column datatype='real' name='winpercent' ordinal='13' />
+            <column datatype='real' name='x_jitter' ordinal='14' />
+            <column datatype='real' name='y_jitter' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1vpypgw1bo2x8b1bmrivk18bqkri' name='candy-data-pca.csv' table='[candy-data-pca#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='competitorname' ordinal='1' />
+            <column datatype='integer' name='chocolate' ordinal='2' />
+            <column datatype='integer' name='fruity' ordinal='3' />
+            <column datatype='integer' name='caramel' ordinal='4' />
+            <column datatype='integer' name='peanutyalmondy' ordinal='5' />
+            <column datatype='integer' name='nougat' ordinal='6' />
+            <column datatype='integer' name='crispedricewafer' ordinal='7' />
+            <column datatype='integer' name='hard' ordinal='8' />
+            <column datatype='integer' name='bar' ordinal='9' />
+            <column datatype='integer' name='pluribus' ordinal='10' />
+            <column datatype='real' name='sugarpercent' ordinal='11' />
+            <column datatype='real' name='pricepercent' ordinal='12' />
+            <column datatype='real' name='winpercent' ordinal='13' />
+            <column datatype='real' name='x_jitter' ordinal='14' />
+            <column datatype='real' name='y_jitter' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>competitorname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[competitorname]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>competitorname</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chocolate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[chocolate]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>chocolate</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fruity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fruity]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>fruity</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>caramel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[caramel]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>caramel</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>peanutyalmondy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[peanutyalmondy]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>peanutyalmondy</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nougat</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nougat]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>nougat</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crispedricewafer</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crispedricewafer]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>crispedricewafer</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hard</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hard]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>hard</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bar</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bar]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>bar</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pluribus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pluribus]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>pluribus</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sugarpercent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sugarpercent]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>sugarpercent</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pricepercent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pricepercent]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>pricepercent</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>winpercent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[winpercent]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>winpercent</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>x_jitter</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[x_jitter]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>x_jitter</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>y_jitter</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[y_jitter]</local-name>
+            <parent-name>[candy-data-pca.csv]</parent-name>
+            <remote-alias>y_jitter</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='candy-data-pca.csv' datatype='table' name='[__tableau_internal_object_id__].[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]' role='measure' type='quantitative' />
+      <column caption='Bar' datatype='integer' name='[bar]' role='measure' type='quantitative' />
+      <column caption='Caramel' datatype='integer' name='[caramel]' role='measure' type='quantitative' />
+      <column caption='Chocolate' datatype='integer' name='[chocolate]' role='measure' type='quantitative' />
+      <column caption='Competitorname' datatype='string' name='[competitorname]' role='dimension' type='nominal' />
+      <column caption='Crispedricewafer' datatype='integer' name='[crispedricewafer]' role='measure' type='quantitative' />
+      <column caption='Fruity' datatype='integer' name='[fruity]' role='measure' type='quantitative' />
+      <column caption='Hard' datatype='integer' name='[hard]' role='measure' type='quantitative' />
+      <column caption='Nougat' datatype='integer' name='[nougat]' role='measure' type='quantitative' />
+      <column caption='Peanutyalmondy' datatype='integer' name='[peanutyalmondy]' role='measure' type='quantitative' />
+      <column caption='Pluribus' datatype='integer' name='[pluribus]' role='measure' type='quantitative' />
+      <column caption='Pricepercent' datatype='real' default-format='n#,##0&quot;%&quot;;-#,##0&quot;%&quot;' name='[pricepercent]' role='measure' type='quantitative' />
+      <column caption='Sugarpercent' datatype='real' default-format='n#,##0&quot;%&quot;;-#,##0&quot;%&quot;' name='[sugarpercent]' role='measure' type='quantitative' />
+      <column caption='Winpercent' datatype='real' default-format='n#,##0&quot;%&quot;;-#,##0&quot;%&quot;' name='[winpercent]' role='measure' type='quantitative' />
+      <column caption='X Jitter' datatype='real' name='[x_jitter]' role='measure' type='quantitative' />
+      <column caption='Y Jitter' datatype='real' name='[y_jitter]' role='measure' type='quantitative' />
+      <column-instance column='[competitorname]' derivation='None' name='[none:competitorname:nk]' pivot='key' type='nominal' />
+      <column-instance column='[x_jitter]' derivation='None' name='[none:x_jitter:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[y_jitter]' derivation='None' name='[none:y_jitter:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[x_jitter]' derivation='Sum' name='[sum:x_jitter:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[y_jitter]' derivation='Sum' name='[sum:y_jitter:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Inclusions (Competitorname,X Jitter,Y Jitter)]' name-style='unqualified' user:auto-column='include'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:competitorname:nk]' />
+          <groupfilter function='level-members' level='[none:x_jitter:qk]' />
+          <groupfilter function='level-members' level='[none:y_jitter:qk]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/dell/Documents/My Tableau Repository/Datasources/Hyper Data Extracts/Candy Data (PCA Rankings).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='10/10/2024 07:42:32 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='candy-data-pca' increment-value='%null%' refresh-type='create' rows-inserted='85' timestamp-start='2024-10-10 07:42:31.310' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>competitorname</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[competitorname]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>competitorname</remote-alias>
+              <ordinal>1</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>chocolate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[chocolate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>chocolate</remote-alias>
+              <ordinal>2</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fruity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[fruity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fruity</remote-alias>
+              <ordinal>3</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>caramel</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[caramel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>caramel</remote-alias>
+              <ordinal>4</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>peanutyalmondy</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[peanutyalmondy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>peanutyalmondy</remote-alias>
+              <ordinal>5</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nougat</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[nougat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>nougat</remote-alias>
+              <ordinal>6</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>crispedricewafer</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[crispedricewafer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>crispedricewafer</remote-alias>
+              <ordinal>7</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hard</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[hard]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hard</remote-alias>
+              <ordinal>8</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bar</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[bar]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bar</remote-alias>
+              <ordinal>9</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pluribus</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pluribus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pluribus</remote-alias>
+              <ordinal>10</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sugarpercent</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[sugarpercent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sugarpercent</remote-alias>
+              <ordinal>11</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pricepercent</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pricepercent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pricepercent</remote-alias>
+              <ordinal>12</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>winpercent</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[winpercent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>winpercent</remote-alias>
+              <ordinal>13</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>x_jitter</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[x_jitter]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>x_jitter</remote-alias>
+              <ordinal>14</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>y_jitter</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[y_jitter]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>y_jitter</remote-alias>
+              <ordinal>15</ordinal>
+              <family>candy-data-pca.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:AdhocCluster:1:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>21</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>25</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>19</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>22</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>17</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>14</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>15</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>18</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>20</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>23</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>16</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>24</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <analytic-model>
+        <name>
+          <field name='[AnalyticModel:{b5cbed10-c153-472a-a7a0-5bae50fb5fde}]' />
+        </name>
+        <analytic-model-specifications class='cluster-specifications'>
+          <analysis-fields>
+            <field name='[federated.0xrqofv19bke181d4tk4o0kpzggn].[sum:x_jitter:qk]' />
+            <field name='[federated.0xrqofv19bke181d4tk4o0kpzggn].[sum:y_jitter:qk]' />
+          </analysis-fields>
+          <filter-fields />
+          <lod-fields />
+          <number-of-desired-clusters>4</number-of-desired-clusters>
+          <is-dissagregate>false</is-dissagregate>
+        </analytic-model-specifications>
+        <result-fields />
+      </analytic-model>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='candy-data-pca.csv' id='candy-data-pca.csv_F1AE6E8BB7AD40DE9AC43D668208F398'>
+            <properties context=''>
+              <relation connection='textscan.1vpypgw1bo2x8b1bmrivk18bqkri' name='candy-data-pca.csv' table='[candy-data-pca#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='competitorname' ordinal='1' />
+                  <column datatype='integer' name='chocolate' ordinal='2' />
+                  <column datatype='integer' name='fruity' ordinal='3' />
+                  <column datatype='integer' name='caramel' ordinal='4' />
+                  <column datatype='integer' name='peanutyalmondy' ordinal='5' />
+                  <column datatype='integer' name='nougat' ordinal='6' />
+                  <column datatype='integer' name='crispedricewafer' ordinal='7' />
+                  <column datatype='integer' name='hard' ordinal='8' />
+                  <column datatype='integer' name='bar' ordinal='9' />
+                  <column datatype='integer' name='pluribus' ordinal='10' />
+                  <column datatype='real' name='sugarpercent' ordinal='11' />
+                  <column datatype='real' name='pricepercent' ordinal='12' />
+                  <column datatype='real' name='winpercent' ordinal='13' />
+                  <column datatype='real' name='x_jitter' ordinal='14' />
+                  <column datatype='real' name='y_jitter' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Candy Analysis'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Roboto'>Candy Cluster Analysis</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='candy-data-pca' name='federated.0xrqofv19bke181d4tk4o0kpzggn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xrqofv19bke181d4tk4o0kpzggn'>
+            <column auto-hidden='true' caption='Clusters' datatype='integer' hidden='true' is-adhoc-cluster='true' name='[AdhocCluster:1]' parent-model='[AnalyticModel:{b5cbed10-c153-472a-a7a0-5bae50fb5fde}]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='-1' value='Cluster Outliers' />
+                <alias key='0' value='Not Clustered' />
+                <alias key='1' value='Cluster 1' />
+                <alias key='2' value='Cluster 2' />
+                <alias key='3' value='Cluster 3' />
+                <alias key='4' value='Cluster 4' />
+                <alias key='5' value='Cluster 5' />
+                <alias key='6' value='Cluster 6' />
+                <alias key='7' value='Cluster 7' />
+                <alias key='8' value='Cluster 8' />
+                <alias key='9' value='Cluster 9' />
+                <alias key='10' value='Cluster 10' />
+                <alias key='11' value='Cluster 11' />
+                <alias key='12' value='Cluster 12' />
+                <alias key='13' value='Cluster 13' />
+                <alias key='14' value='Cluster 14' />
+                <alias key='15' value='Cluster 15' />
+                <alias key='16' value='Cluster 16' />
+                <alias key='17' value='Cluster 17' />
+                <alias key='18' value='Cluster 18' />
+                <alias key='19' value='Cluster 19' />
+                <alias key='20' value='Cluster 20' />
+                <alias key='21' value='Cluster 21' />
+                <alias key='22' value='Cluster 22' />
+                <alias key='23' value='Cluster 23' />
+                <alias key='24' value='Cluster 24' />
+                <alias key='25' value='Cluster 25' />
+                <alias key='26' value='Cluster 26' />
+                <alias key='27' value='Cluster 27' />
+                <alias key='28' value='Cluster 28' />
+                <alias key='29' value='Cluster 29' />
+                <alias key='30' value='Cluster 30' />
+                <alias key='31' value='Cluster 31' />
+                <alias key='32' value='Cluster 32' />
+                <alias key='33' value='Cluster 33' />
+                <alias key='34' value='Cluster 34' />
+                <alias key='35' value='Cluster 35' />
+                <alias key='36' value='Cluster 36' />
+                <alias key='37' value='Cluster 37' />
+                <alias key='38' value='Cluster 38' />
+                <alias key='39' value='Cluster 39' />
+                <alias key='40' value='Cluster 40' />
+                <alias key='41' value='Cluster 41' />
+                <alias key='42' value='Cluster 42' />
+                <alias key='43' value='Cluster 43' />
+                <alias key='44' value='Cluster 44' />
+                <alias key='45' value='Cluster 45' />
+                <alias key='46' value='Cluster 46' />
+                <alias key='47' value='Cluster 47' />
+                <alias key='48' value='Cluster 48' />
+                <alias key='49' value='Cluster 49' />
+                <alias key='50' value='Cluster 50' />
+              </aliases>
+            </column>
+            <column caption='Competitorname' datatype='string' name='[competitorname]' role='dimension' type='nominal' />
+            <column-instance column='[AdhocCluster:1]' derivation='None' is-adhoc-cluster='true' name='[none:AdhocCluster:1:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[competitorname]' derivation='None' name='[none:competitorname:nk]' pivot='key' type='nominal' />
+            <column-instance column='[x_jitter]' derivation='None' name='[none:x_jitter:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[y_jitter]' derivation='None' name='[none:y_jitter:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[winpercent]' derivation='Sum' name='[sum:winpercent:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[x_jitter]' derivation='Sum' name='[sum:x_jitter:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[y_jitter]' derivation='Sum' name='[sum:y_jitter:qk]' pivot='key' type='quantitative' />
+            <column caption='Winpercent' datatype='real' default-format='n#,##0&quot;%&quot;;-#,##0&quot;%&quot;' name='[winpercent]' role='measure' type='quantitative' />
+            <column caption='X Jitter' datatype='real' name='[x_jitter]' role='measure' type='quantitative' />
+            <column caption='Y Jitter' datatype='real' name='[y_jitter]' role='measure' type='quantitative' />
+            <style>
+              <style-rule element='mark'>
+                <encoding attr='color' field='[none:AdhocCluster:1:ok]' type='palette'>
+                  <map to='#499894'>
+                    <bucket>9</bucket>
+                  </map>
+                  <map to='#4e79a7'>
+                    <bucket>1</bucket>
+                  </map>
+                  <map to='#4e79a7'>
+                    <bucket>21</bucket>
+                  </map>
+                  <map to='#59a14f'>
+                    <bucket>5</bucket>
+                  </map>
+                  <map to='#59a14f'>
+                    <bucket>25</bucket>
+                  </map>
+                  <map to='#76b7b2'>
+                    <bucket>4</bucket>
+                  </map>
+                  <map to='#79706e'>
+                    <bucket>13</bucket>
+                  </map>
+                  <map to='#86bcb6'>
+                    <bucket>10</bucket>
+                  </map>
+                  <map to='#8cd17d'>
+                    <bucket>6</bucket>
+                  </map>
+                  <map to='#9d7660'>
+                    <bucket>19</bucket>
+                  </map>
+                  <map to='#a0cbe8'>
+                    <bucket>22</bucket>
+                  </map>
+                  <map to='#b07aa1'>
+                    <bucket>17</bucket>
+                  </map>
+                  <map to='#b6992d'>
+                    <bucket>7</bucket>
+                  </map>
+                  <map to='#bab0ac'>
+                    <bucket>14</bucket>
+                  </map>
+                  <map to='#d37295'>
+                    <bucket>15</bucket>
+                  </map>
+                  <map to='#d4a6c8'>
+                    <bucket>18</bucket>
+                  </map>
+                  <map to='#d7b5a6'>
+                    <bucket>20</bucket>
+                  </map>
+                  <map to='#e15759'>
+                    <bucket>3</bucket>
+                  </map>
+                  <map to='#e15759'>
+                    <bucket>11</bucket>
+                  </map>
+                  <map to='#f1ce63'>
+                    <bucket>8</bucket>
+                  </map>
+                  <map to='#f28e2b'>
+                    <bucket>2</bucket>
+                  </map>
+                  <map to='#f28e2b'>
+                    <bucket>23</bucket>
+                  </map>
+                  <map to='#fabfd2'>
+                    <bucket>16</bucket>
+                  </map>
+                  <map to='#ff9d9a'>
+                    <bucket>12</bucket>
+                  </map>
+                  <map to='#ffbe7d'>
+                    <bucket>24</bucket>
+                  </map>
+                </encoding>
+              </style-rule>
+            </style>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xrqofv19bke181d4tk4o0kpzggn].[Inclusions (Competitorname,X Jitter,Y Jitter)]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;100 Grand&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='1.3226995962049439' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.18082420421746828' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;3 Musketeers&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='1.1879591875809723' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.36583078473339192' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Hershey&apos;s Krackel&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='1.120043054207025' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.22682981870039423' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Hershey&apos;s Special Dark&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='0.93176605084931241' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.109945424881883' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Junior Mints&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='-0.05423249823877585' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='0.85262587491887898' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Kit Kat&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='1.0421853292051486' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.22934801092812857' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;M&amp;M&apos;s&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='0.14830453326980891' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='0.86768137933548295' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Milky Way&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='1.2654835161414126' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.54227323368812297' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Milky Way Midnight&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='1.3189433785032285' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.48271040924472958' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Milky Way Simply Caramel&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='1.0077126246725148' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.4140808936940284' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Nestle Butterfinger&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='1.0830906980853185' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.25158845258013679' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Nestle Crunch&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='0.94790603046590438' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.16684973455943092' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Peanut butter M&amp;M&apos;s&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='0.42836248813157873' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='1.0619671842740046' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Peanut M&amp;Ms&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='0.52070654630167834' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='1.0951478131477206' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Reese&apos;s Miniatures&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='0.82989974450809267' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='0.33370229019605679' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Reese&apos;s Peanut Butter cup&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='0.80012701645700313' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='0.15729650208549115' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Reese&apos;s pieces&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='0.34315769740332219' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='0.85377784546841573' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Reese&apos;s stuffed with pieces&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='0.79410405823315344' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='0.25871877580014691' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Rolo&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='0.45177309288629508' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='0.72330015571739048' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Skittles original&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='-0.85149874497440314' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='0.11785796693222596' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Snickers&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='1.5029007529239382' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.12456147400898682' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Snickers Crisper&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='1.5631903874205539' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.097001861173930157' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Sour Patch Kids&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='-0.82097490351725655' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='0.23289120176889391' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Starburst&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='-0.81426632943641841' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='0.23188205233581333' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:competitorname:nk]' member='&quot;Twix&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:x_jitter:qk]' member='1.3843264327040086' />
+                  <groupfilter function='member' level='[none:y_jitter:qk]' member='-0.34588253515744216' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:competitorname:nk]'>
+            <groupfilter function='level-members' level='[none:competitorname:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0xrqofv19bke181d4tk4o0kpzggn].[sum:winpercent:qk]' included-values='in-range'>
+            <min>60.299999999999997</min>
+            <max>84.200000000000003</max>
+          </filter>
+          <slices>
+            <column>[federated.0xrqofv19bke181d4tk4o0kpzggn].[sum:winpercent:qk]</column>
+            <column>[federated.0xrqofv19bke181d4tk4o0kpzggn].[Inclusions (Competitorname,X Jitter,Y Jitter)]</column>
+            <column>[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:competitorname:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:x_jitter:qk]' scope='cols' value='&lt;-- Fruity          Chocolatey --&gt;' />
+            <format attr='title' class='0' field='[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:y_jitter:qk]' scope='rows' value='&lt;-- Single Candies          Multiple Candies --&gt;' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Roboto' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-family' value='Roboto' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-weight' field='[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:x_jitter:qk]' value='bold' />
+            <format attr='font-weight' field='[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:y_jitter:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0xrqofv19bke181d4tk4o0kpzggn].[sum:winpercent:qk]' value='Win %'>
+              <formatted-text>
+                <run fontalignment='1'>Win %</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='font-family' value='Roboto' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:AdhocCluster:1:ok]' />
+              <text column='[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:competitorname:nk]' />
+              <lod column='[federated.0xrqofv19bke181d4tk4o0kpzggn].[sum:winpercent:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:y_jitter:qk]</rows>
+        <cols>[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:x_jitter:qk]</cols>
+      </table>
+      <simple-id uuid='{102A7434-42A7-4BF6-A179-B59C3436B11B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Candy Cluster'>
+      <style />
+      <size maxheight='600' maxwidth='800' minheight='600' minwidth='800' preset-index='3' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='candy-data-pca' name='federated.0xrqofv19bke181d4tk4o0kpzggn' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0xrqofv19bke181d4tk4o0kpzggn'>
+        <column-instance column='[winpercent]' derivation='Sum' name='[sum:winpercent:qk]' pivot='key' type='quantitative' />
+        <column caption='Winpercent' datatype='real' default-format='n#,##0&quot;%&quot;;-#,##0&quot;%&quot;' name='[winpercent]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='96334' id='7' param='horz' type-v2='layout-flow' w='97250' x='1375' y='1833'>
+            <zone h='96334' id='5' type-v2='layout-basic' w='97250' x='1375' y='1833'>
+              <zone h='96334' id='3' name='Candy Analysis' w='97250' x='1375' y='1833'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='3' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='10000' id='8' name='Candy Analysis' param='[federated.0xrqofv19bke181d4tk4o0kpzggn].[sum:winpercent:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='21000' x='75875' y='5333' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='13' param='vert' type-v2='layout-flow' w='98000' x='1000' y='1333'>
+                <zone h='10000' id='8' name='Candy Analysis' param='[federated.0xrqofv19bke181d4tk4o0kpzggn].[sum:winpercent:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='21000' x='75875' y='5333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='96334' id='3' is-fixed='true' name='Candy Analysis' w='97250' x='1375' y='1833'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='3' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{ECB7AC37-9EDC-4572-AA53-CA03B29B8F34}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Candy Analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0xrqofv19bke181d4tk4o0kpzggn].[sum:winpercent:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:AdhocCluster:1:ok]</field>
+            <field>[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:competitorname:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{40181949-D325-4E16-8186-5F9F13C6283C}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Candy Cluster'>
+      <viewpoints>
+        <viewpoint name='Candy Analysis'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <node-selection select-tuples='false'>
+              <oriented-node-reference orientation='horizontal'>
+                <node-reference>
+                  <axis>[federated.0xrqofv19bke181d4tk4o0kpzggn].[none:x_jitter:qk]</axis>
+                </node-reference>
+                <page-reference />
+              </oriented-node-reference>
+            </node-selection>
+          </selection-collection>
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{59CC62BB-CAF5-4CD0-8B61-DF4F5D8D277C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Candy Analysis' width='192'>
+      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
+      QwYAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Candy Cluster' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
