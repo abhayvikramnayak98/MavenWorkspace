@@ -1,0 +1,243 @@
+country,population,source
+China,1399450000,Official population clock
+India,1353230000,Official population clock
+United States,330025000,Official population clock
+Indonesia,268074600,Official annual projection
+Brazil,210537000,Official population clock
+Pakistan,206261000,Official population clock
+Nigeria,200963599,UN Projection
+Bangladesh,167370000,Official population clock
+nan,146793744,Official estimate
+Mexico,126577691,Official annual projection
+Japan,126150000,Monthly provisional estimate
+Philippines,108340000,Official population clock
+Egypt,99390900,Official population clock
+Ethiopia,98665000,Official annual projection
+Viet Nam,96208984,Preliminary 2019 census result
+"Congo, The Democratic Republic of the",86790567,UN Projection
+Germany,83042200,Official estimate
+Iran,82845400,Official population clock
+Turkey,82003882,Official annual estimate
+France,67055000,Monthly official estimate
+United Kingdom,66435600,Official annual estimate
+Thailand,66419630,Official population clock
+Italy,60278616,Monthly official estimate
+South Africa,58775022,Official annual estimate
+Tanzania,55890747,Official annual projection
+Myanmar,54339766,Official annual projection
+Kenya,52573973,UN projection
+"Korea, Republic of",51811167,Official annual estimate
+Colombia,48258494,2018 census results
+Spain,46934632,Official estimate
+Argentina,44938712,Official annual projection
+Algeria,43378027,Official annual projection
+Ukraine,41990278,Monthly official estimate
+Sudan,41924110,Official population clock
+Uganda,40006700,Official annual projection
+Iraq,39127900,Official annual projection
+Poland,38386000,Official estimate
+Canada,37770900,Official population clock
+Morocco,35685100,Official population clock
+Saudi Arabia,34218169,Official estimate
+Uzbekistan,33762608,Official population clock
+Malaysia,32623200,Official population clock
+Afghanistan,32225560,Official annual estimate
+Venezuela,32219521,Official annual projection
+Peru,32131400,Official annual projection
+Ghana,30280811,Official projection
+Angola,30175553,Official projection
+Nepal,29609623,Official annual projection
+Yemen,29161922,UN projection
+Mozambique,27909798,Official census result
+Côte d'Ivoire,25823071,Official projection
+Madagascar,25680342,Provisional 2018 census result
+Australia,25527200,Official population clock
+North Korea,25450000,Official annual projection
+Cameroon,24348251,Official annual projection
+Taiwan,23593794,Monthly official estimate
+Niger,22314743,Official annual projection
+Sri Lanka,21803000,Official estimate
+Burkina Faso,20870060,Official annual projection
+Mali,19973000,Official annual projection
+Romania,19405156,Official annual estimate
+Chile,19107216,Official annual projection
+Kazakhstan,18564824,Official population clock
+Malawi,17563749,Preliminary 2018 census result
+Zambia,17381168,Official annual projection
+Netherlands,17350100,Official population clock
+Ecuador,17336400,Official population clock
+Syrian Arab Republic,17070135,UN projection
+Senegal,16209125,Official annual projection
+Chad,15692969,Official annual projection
+Somalia,15442905,UN projection
+Cambodia,15288489,Provisional 2019 census result
+Zimbabwe,15159624,Official annual projection
+Guatemala,14901286,2018 census result
+South Sudan,12778250,Official annual projection
+Rwanda,12374397,Official projection annual
+Guinea,12218357,Official projection
+Benin,11733059,Official projection annual
+Haiti,11577779,Official annual projection
+Tunisia,11551448,Official estimate
+Belgium,11485729,Monthly official estimate
+Bolivia,11469896,Official projection annual
+Cuba,11209628,Official annual estimate
+Burundi,10953317,Official annual projection
+Greece,10741165,Official estimate
+Czech Republic,10668641,Official quarterly estimate
+Jordan,10520500,Official population clock
+Dominican Republic,10358320,Official projection
+Sweden,10290832,Official monthly estimate
+Portugal,10276617,Official annual estimate
+Azerbaijan,10027874,Official estimate
+Hungary,9772756,Official estimate
+United Arab Emirates,9770529,UN projection
+Belarus,9456200,Official quarterly estimate
+Honduras,9158345,Official annual projection
+Tajikistan,9127000,Official estimate
+Israel,9097680,Official population clock
+Austria,8877036,Quarterly provisional figure
+Papua New Guinea,8558800,Official annual estimate
+Switzerland,8570146,Official provisional figure
+Sierra Leone,7901454,Official annual projection
+Togo,7538000,Official annual projection
+Hong Kong,7524100,Official estimate
+Paraguay,7152703,Official annual projection
+Laos,7123205,Official annual projection
+Bulgaria,7000039,Official estimate
+Serbia,6963764,Official annual estimate
+Lebanon,6855713,UN projection
+Libya,6777452,UN projection
+El Salvador,6704864,Official annual projection
+Nicaragua,6460411,Official estimate
+Kyrgyzstan,6389500,Official estimate
+Turkmenistan,5942089,UN projection
+Denmark,5814461,Official quarterly estimate
+Singapore,5703600,Official estimate
+Finland,5524387,Official monthly estimate
+Central African Republic,5496011,Official annual projection
+Slovakia,5450017,Official estimate
+"Congo, The Republic of",5380508,UN projection
+Norway,5345599,Official quarterly estimate
+Costa Rica,5058007,Official annual projection
+New Zealand,4935240,Official population clock
+Palestinian Territory,4976684,Official annual projection
+Ireland,4921500,Official estimate
+Oman,4670745,Official estimate
+Liberia,4475353,Official projection
+Kuwait,4420110,Official annual estimate
+Panama,4218808,Official annual projection
+Croatia,4130304,UN projection
+Mauritania,4077347,Official annual projection
+Georgia,3723500,Official annual estimate
+Uruguay,3518552,Official annual projection
+Eritrea,3497117,UN projection
+Bosnia and Herzegovina,3301000,UN projection
+Mongolia,3281416,Official population clock
+Puerto Rico,3195153,Official estimate
+Armenia,2961600,Official quarterly estimate
+Albania,2862427,Official annual estimate
+Lithuania,2793722,Monthly official estimate
+Qatar,2747282,Monthly official estimate
+Jamaica,2726667,Official estimate
+Moldova,2681735,Official estimate
+Namibia,2458936,Official projection
+The Gambia,2347706,UN projection
+Botswana,2338851,Official annual projection
+Gabon,2172579,UN projection
+Slovenia,2084301,Official estimate
+Macedonia,2077132,Official estimate
+Lesotho,2007201,2016 census result
+Latvia,1911200,Monthly official estimate
+Kosovo,1795666,Official annual estimate
+Guinea-Bissau,1604528,Official annual projection
+Bahrain,1543300,Official annual projection
+East Timor,1387149,Official annual projection
+Trinidad and Tobago,1359193,Official estimate
+Equatorial Guinea,1358276,Official estimate
+Estonia,1324820,Official estimate
+Mauritius,1265985,Official estimate
+Eswatini,1093238,Official census result
+Djibouti,1078373,Official annual projection
+Fiji,884887,Official census result
+Comoros,873724,Official estimate
+Cyprus,864200,Official annual estimate
+Guyana,782766,UN projection
+Bhutan,741672,Official annual projection
+Solomon Islands,680806,Official annual projection
+Macau,672000,Official quarterly estimate
+Montenegro,622359,Official estimate
+Luxembourg,613894,Official estimate
+nan,582463,UN projection
+Suriname,581372,UN projection
+Cape Verde,550483,Official annual projection
+Malta,493559,Official estimate
+Transnistria,469000,Official estimate
+Brunei Darussalam,442400,Official estimate
+Belize,408487,Official estimate
+Bahamas,385340,Official annual projection
+Maldives,374775,Official annual estimate
+Iceland,360390,Official quarterly estimate
+nan,351965,Official estimate
+Vanuatu,304500,Official annual estimate
+Barbados,287025,UN projection
+New caledonia,282200,Official annual estimate
+French Polynesia,275918,2017 census results
+Abkhazia,244832,Official estimate
+São Tomé and Príncipe,201784,Official estimate
+Samoa,200874,Official projection
+Saint Lucia,178696,Official annual estimate
+Guam,172400,Official annual estimate
+Curaçao,158665,Official annual estimate
+Artsakh,148000,Official annual estimate
+Kiribati,120100,Official annual estimate
+Aruba,112309,Official quarterly estimate
+Grenada,112003,UN projection
+Saint Vincent/Grenadines,110608,Official estimate
+Jersey,106800,Official estimate
+United states virgin islands,104578,UN projection
+Federated States of Micronesia,104468,Official annual projection
+Tonga,100651,2016 census result
+Seychelles,97625,Official estimate
+Antigua and Barbuda,96453,Official annual projection
+Isle of man,83314,2016 census result
+Andorra,76177,Official estimate
+Dominica,71808,UN projection
+Cayman islands,65813,Official estimate
+Bermuda,64027,Official annual projection
+Guernsey,62754,Official estimate
+American Samoa,56700,Official annual estimate
+Northern Mariana Islands,56200,Official annual estimate
+Greenland,56225,Official estimate
+Marshall Islands,55500,Official annual estimate
+South Ossetia,53532,Preliminary 2015 census result
+Saint Kitts and Nevis,52823,UN projection
+Faroe Islands,52122,Monthly official estimate
+Turks and Caicos Islands,41369,Official estimate
+Sint Maarten,40614,Official estimate
+Liechtenstein,38380,Official semi annual estimate
+Monaco,38300,Official annual estimate
+ Saint-Martin,35746,Official estimate
+Gibraltar,33701,UN projection
+San Marino,33524,Official monthly estimate
+British Virgin Islands,30030,UN projection
+Palau,17900,Official annual estimate
+Cook Islands,15200,Official annual estimate
+Anguilla,14869,UN projection
+Wallis and Futuna,11700,Official annual estimate
+Nauru,11000,Official annual estimate
+Tuvalu,10200,Official annual estimate
+Saint Barthélemy,9793,Official estimate
+Saint Pierre and Miquelon,6008,Official estimate
+" 
+Saint Helena, Ascensionand Tristan da Cunha",5633,2016 census result
+Montserrat,4989,UN projection
+Falkland Islands,3198,2016 census result
+Christmas Island,1928,Official estimate
+Norfolk Island,1756,Official estimate
+Niue,1520,Official annual estimate
+Tokelau,1400,Official annual estimate
+Vatican City,799,UN projection
+Cocos (Keeling) Islands,538,Official estimate
+Pitcairn Islands,50,Official estimate
+Russian Federation,114500000,Google

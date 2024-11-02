@@ -1,0 +1,34 @@
+Table,Field,Description
+Athletes,height,Height in meters
+Athletes,affiliateid,ID of the gym they're affiliated to
+Athletes,countryoforiginname,Country of the gym
+Athletes,weight,Weight in kilograms
+Athletes,affiliatename,Name of the gym
+Athletes,status,"Status (ACT: active, CUT: cut, WD: withdrew)"
+Athletes,bibid,Competitor number assigned for the games that year
+Athletes,profilepics3key,"Link to profile picture (add ""https://profilepicsbucket.crossfit.com/"" before the link)"
+Athletes,competitorid,Athlete ID
+Athletes,firstname,First name
+Athletes,gender,Gender
+Athletes,age,Age
+Athletes,lastname,Last name
+Athletes,countryoforigincode,Country of origin
+Athletes,competitorname,Full name
+Athletes,overallrank,Rank for the division across all the workouts
+Athletes,overallscore,Sum of points scored across all the workouts (used to determine rank)
+Athletes,division,Division by gender and age group
+Athletes,Number of Records,Unitary column
+Scores,ordinal,Workout ID for the division
+Scores,breakdown,Points scored
+Scores,lane,Lane assigned
+Scores,rank,Workout rank
+Scores,heat,Group in which they performed the workout
+Scores,points,Points scored
+Scores,scoredisplay,Result from the workout
+Scores,time,Result from the workout
+Scores,workoutrank,Rank for the division in the workout
+Scores,competitorid,Athlete ID
+Scores,Number of Records,Unitary column
+Countries,country,Country name
+Countries,population,Population
+Countries,source,Source the population was obtained from
